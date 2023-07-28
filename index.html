@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>BroAlerts - MyBro Bot for Telegram</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/circle60.png" type="image/png">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/custom-animation.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="loader-wrap">
+        <div class="preloader">
+            <div class="preloader-close">Preloader Close</div>
+        </div>
+        <div class="layer layer-one"><span class="overlay"></span></div>
+        <div class="layer layer-two"><span class="overlay"></span></div>
+        <div class="layer layer-three"><span class="overlay"></span></div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== OFFCANVAS MENU PART START ======-->
+
+    <div class="off_canvars_overlay">
+
+    </div>
+    <div class="offcanvas_menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                            <a href="javascript:void(0)"><i class="fa fa-times"></i></a>
+                        </div>
+                        <div class="offcanvas-brand text-center mb-40">
+                            <img src="assets/images/logo.svg" alt="logo" style="width: 75%; border-radius: 0; !important;">
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children active">
+                                    <a href="/">Home</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="/terms">Terms and Conditions</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="/privacy">Privacy Policy</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="/contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget-info">
+                            <ul>
+                                <li><a href="mailto:support@broalerts.app"><i class="fal fa-envelope"></i> support@broalerts.app</a></li>
+                                <li><a href="tel:+35799549948"><i class="fal fa-phone"></i> +(357) 99 549 948</a></li>
+                                <li><a href="https://g.page/huggesocial?share"><i class="fal fa-map-marker-alt"></i> Gladstonos 12-14, 8046 Paphos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== OFFCANVAS MENU PART ENDS ======-->
+
+    <!--====== PART START ======-->
+
+    <header class="appie-header-area appie-header-8-area appie-sticky ">
+        <div class="container">
+            <div class="header-nav-box header-nav-box-6">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
+                        <div class="appie-logo-box">
+                            <a href="/">
+                                <img src="assets/images/logo.svg" alt="logo" style="width: 75%; border-radius: 0; !important;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
+                        <div class="appie-header-main-menu">
+                            <ul>
+                                <li class="menu-item-has-children active">
+                                    <a href="/">Home</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="/terms">Terms and Conditions</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="/privacy">Privacy Policy</a>
+                                </li>
+                                <li class="menu-item-has-children active">
+                                    <a href="/contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
+                        <div class="appie-btn-box text-right">
+                            <a href="https://t.me/MyFavoriteRoomsOnlineBot"><i class="fab fa-telegram"></i> <span>MyBro Bot</span></a>
+                            <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
+                                <i class="fa fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--====== PART ENDS ======-->
+
+    <!--====== APPIE HERO PART START ======-->
+
+    <section class="appie-hero-area appie-hero-8-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="appie-hero-content appie-hero-content-8">
+                        <h1 class="appie-title">Never Miss Your Favorite Shows</h1>
+                        <p>Track Beloved Channels, Tailor Your Alerts. Your Notifications are Your Business.</p>
+                        <ul>
+                            <li><a href="https://t.me/MyFavoriteRoomsOnlineBot"><i class="fab fa-telegram"></i> <span>MyBro Bot</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="appie-hero-thumb-6">
+                        <div class="thumb text-center wow animated fadeInUp" data-wow-duration="1000ms"
+                            data-wow-delay="600ms">
+                            <img src="assets/images/hero-thumb-9.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-8-shape-1">
+            <img src="assets/images/shape/3.png" alt="">
+        </div>
+        <div class="home-8-shape-2">
+            <img src="assets/images/shape/4.png" alt="">
+        </div>
+        <div class="home-8-shape-3">
+            <img src="assets/images/shape/1.png" alt="">
+        </div>
+        <div class="home-8-shape-4">
+            <img src="assets/images/shape/2.png" alt="">
+        </div>
+    </section>
+
+    <!--====== APPIE HERO PART ENDS ======-->
+
+
+    <section class="appie-counter-area appie-counter-10-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="appie-single-10-counter">
+                        <div class="single-counter-icon">
+                            <img src="assets/images/users.svg" alt="active users" style="width: 96px; height: 96px;">
+                        </div>
+                        <div class="single-counter-content">
+                            <h3> <span class="counter-item">3000</span> <span class="counter-number-suffix">+</span></h3>
+                            <p>Active Users</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="appie-single-10-counter">
+                        <div class="single-counter-icon">
+                            <img src="assets/images/alerts.svg" alt="alerts sent" style="width: 96px; height: 96px;">
+                        </div>
+                        <div class="single-counter-content">
+                            <h3> <span class="counter-item">100</span><span class="counter-number-suffix">K+</span></h3>
+                            <p>Alerts Sent</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="appie-single-10-counter">
+                        <div class="single-counter-icon">
+                            <img src="assets/images/database.svg" alt="1.8M Monitored Accounts" style="width: 96px; height: 96px;">
+                        </div>
+                        <div class="single-counter-content">
+                            <h3> <span class="counter-item">1.8</span> <span class="counter-number-suffix">M+</span></h3>
+                            <p>Monitored Accounts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--====== APPIE ABOUT 8 PART ENDS ======-->
+
+
+    <section class="appie-showcase-area ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="appie-section-title text-center">
+                        <h3 class="appie-title">The Future of Personalized Content</h3>
+                        <p>Catch a Glimpse of Your Seamless Streaming Notifications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row appie-showcase-slider">
+                <div class="col-lg-3">
+                    <div class="appie-showcase-item mt-30">
+                        <a class="appie-image-popup" href="assets/images/a1.png"><img src="assets/images/a1.png" alt="help message"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="appie-showcase-item mt-30">
+                        <a class="appie-image-popup" href="assets/images/a2.png"><img src="assets/images/a2.png" alt="bot functions"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="appie-showcase-item mt-30">
+                        <a class="appie-image-popup" href="assets/images/a3.png"><img src="assets/images/a3.png" alt="alert example"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="appie-showcase-item mt-30">
+                        <a class="appie-image-popup" href="assets/images/a4.png"><img src="assets/images/a4.png" alt="alert example"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="appie-showcase-item mt-30">
+                        <a class="appie-image-popup" href="assets/images/a2.png"><img src="assets/images/a2.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="showcase-shape-1">
+            <img src="assets/images/shape/shape-14.png" alt="">
+        </div>
+        <div class="showcase-shape-2">
+            <img src="assets/images/shape/shape-13.png" alt="">
+        </div>
+        <div class="showcase-shape-3">
+            <img src="assets/images/shape/shape-12.png" alt="">
+        </div>
+        <div class="showcase-shape-4">
+            <img src="assets/images/shape/shape-15.png" alt="">
+        </div>
+    </section>
+
+    <!--====== APPIE ABOUT 8 PART ENDS ======-->
+
+    <!--====== APPIE SERRVICE 2 PART START ======-->
+
+    <section class="appie-services-2-area appie-services-8-area pt-90 pb-55" id="service">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-6 col-md-8">
+                    <div class="appie-section-title">
+                        <h3 class="appie-title">MyBro Bot is Your New Best Friend.</h3>
+                        <p>Four rock-solid reasons to invite our bot into your Telegram squad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="appie-single-service-2 appie-single-service-about mt-30 wow animated fadeInUp"
+                                data-wow-duration="2000ms" data-wow-delay="200ms">
+                                <h4 class="title">Whisper-Silent Alerts</h4>
+                                <p>Swift, silent, and only when your favorite streamers are on.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="appie-single-service-2 appie-single-service-about item-2 mt-30 wow animated fadeInUp"
+                                data-wow-duration="2000ms" data-wow-delay="400ms">
+                                <h4 class="title">No Annoying Ads</h4>
+                                <p>Say goodbye to ad pop-ups ruining your mood.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="appie-single-service-2 appie-single-service-about item-3 mt-30 wow animated fadeInUp"
+                                data-wow-duration="2000ms" data-wow-delay="600ms">
+                                <h4 class="title">Smooth as Silk</h4>
+                                <p>Our bot fits into your Telegram like a charm.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="appie-single-service-2 appie-single-service-about item-4 mt-30 wow animated fadeInUp"
+                                data-wow-duration="2000ms" data-wow-delay="200ms">
+                                <h4 class="title">Freebies for All</h4>
+                                <p>Because the best things in life are free.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="service-thumb">
+                        <img src="assets/images/a5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== APPIE SERRVICE 2 PART ENDS ======-->
+
+    <!--====== APPIE HOW IT WORK PART ENDS ======-->
+
+    <div class="appie-how-it-work-area pt-10 pb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="how-it-work-thumb text-center">
+                        <img src="assets/images/how-it-works-thumb.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="appie-how-it-work-content">
+                        <h2 class="title">How It works</h2>
+                        <p>Your Journey Begins Here. Follow These Few Simple Steps.
+                        </p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="how-it-work-box">
+                                    <span>1</span>
+                                    <h5 class="title">Open <br> MyBro Bot</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="how-it-work-box">
+                                    <span>2</span>
+                                    <h5 class="title">Check Your <br> Inbox</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="how-it-work-box">
+                                    <span>3</span>
+                                    <h5 class="title">Choose Your <br> Liked Channels</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="how-it-work-box">
+                                    <span>4</span>
+                                    <h5 class="title">Watch Live Shows &<br> Enjoy Free Content</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== APPIE HOW IT WORK PART ENDS ======-->
+
+    <!--====== APPIE FOOTER PART START ======-->
+
+    <section class="appie-footer-area appie-footer-about-area appie-footer-8-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-about-widget">
+                        <div class="logo">
+                            <a href="/"><img src="assets/images/circle60.png" alt="logo"></a>
+                        </div>
+                        <p>MyBro Bot - Your Favorites Streams. You're the First to Know.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-navigation">
+                        <h4 class="title">BroAlerts.app</h4>
+                        <ul>
+                            <li><a href="/terms">Terms and Conditions</a></li>
+                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><a href="/cookies">Cookie Policy</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-navigation">
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget-info">
+                        <h4 class="title">Get In Touch</h4>
+                        <ul>
+                            <li><a href="mailto:support@broalerts.app"><i class="fal fa-envelope"></i> support@broalerts.app</a></li>
+                            <li><a href="tel:+35799549948"><i class="fal fa-phone"></i>+(357) 99 549 948</a></li>
+                            <li><a href="https://g.page/huggesocial?share"><i class="fal fa-map-marker-alt"></i>Gladstonos 12-14, 8046 Paphos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-copyright d-flex align-items-center justify-content-between pt-35">
+                        <div class="apps-download-btn">
+                            <ul>
+                                <li><a href="https://t.me/MyFavoriteRoomsOnlineBot"><i class="fab fa-telegram"></i> <span>MyBro Bot</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="copyright-text">
+                            <p>Copyright © 2023 BroAlerts - MyBro Bot. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== APPIE FOOTER PART ENDS ======-->
+
+    <!--====== APPIE BACK TO TOP PART ENDS ======-->
+    <div class="back-to-top back-to-top-8">
+        <a href="#"><i class="fal fa-arrow-up"></i></a>
+    </div>
+    <!--====== APPIE BACK TO TOP PART ENDS ======-->
+
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+
+    <!--====== TweenMax js ======-->
+    <script src="assets/js/TweenMax.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
